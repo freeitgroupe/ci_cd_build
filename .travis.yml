@@ -6,6 +6,12 @@ install:
 language: node_js
 node_js:
   - 14
+  
+deploy:
+  provider: heroku
+  app: "cicdbuild"
+  api_key:
+    secure: "de092c38-9157-4f96-8227-740a9a0fe485"
 
 branches:
   only:
