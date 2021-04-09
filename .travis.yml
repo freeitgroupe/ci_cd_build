@@ -1,7 +1,7 @@
 sudo: false
 
-before_script:
- - yarn install --frozen-lockfile
+install:
+  - yarn --frozen-lockfile
 
 language: node_js
 node_js:
