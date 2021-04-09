@@ -9,9 +9,9 @@ node_js:
   
 deploy:
   provider: heroku
-  app: "cicdbuild"
+  app: cicdbuild
   api_key:
-    secure: "de092c38-9157-4f96-8227-740a9a0fe485"
+    secure: de092c38-9157-4f96-8227-740a9a0fe485
 
 branches:
   only:
